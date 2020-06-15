@@ -1,0 +1,54 @@
+name: food
+description: foods 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  animated_text_kit: ^2.0.0
+  font_awesome_flutter: ^8.5.0
+  firebase_auth: ^0.15.4
+  cloud_firestore: ^0.13.0+1
+  provider: ^4.0.4
+  shared_preferences: ^0.5.6+1
+  flutter_spinkit: "^4.1.1"
+  google_fonts: ^0.3.9
+  image_picker: ^0.6.3+1
+  path: ^1.6.4
+  uuid: ^2.0.4
+  firebase_storage: ^3.1.1
+  transparent_image: ^1.0.0
+  sqflite: any
+  path_provider: any
+  intl: ^0.16.1
+  flutter_rating_bar: ^3.0.1+1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+    - images/logout.png
+    - images/not_found.png
+
+
+
